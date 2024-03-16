@@ -26,10 +26,12 @@
       rel="stylesheet"
     />
 
-
-    
     <title>Relcon Daily Plan | Bihar State</title>
-    <link rel="shortcut icon" href="./assets/daily plan png.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/daily plan png.png"
+      type="image/x-icon"
+    />
   </head>
 
   <body class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">
@@ -39,7 +41,7 @@
       <form
         class="row g-3"
         method="post"
-        action="https://script.google.com/macros/s/AKfycbxZNbfPu5t0n3hp26nBxNxgoTbr19LlN2eqgmqZIlfHRKkCu5Ry1rwIwiTDH_om_At5/exec"
+        action="https://script.google.com/macros/s/AKfycbwMdTwIFSxR309TBeh3qF_EBEGIkbMEVCC5SiyjE3TIzhIrV9M35vkPF1RvA6j-95Y0/exec"
       >
         <h2>Update Bihar Engineer Daily Plan :</h2>
         <br /><br />
@@ -78,7 +80,6 @@
             <option>Abhishek Pathak</option>
             <option>Kaushal Pandey</option>
             <option>Gautam Kumar (Purnia)</option>
-
           </select>
         </div>
 
@@ -145,6 +146,17 @@
             name="DOV"
             required
           />
+        </div>
+
+        <div class="col-md-2">
+          <label for="phase" class="form-label">Visit Purpose :</label>
+          <select id="phase" class="form-select" name="VISITPURPOSE" required>
+            <option value="" disabled selected>Select Visit Purpose</option>
+            <option>AMC</option>
+            <option>DEPENDENCY/AMC</option>
+            <option>DEPENDECY</option>
+            <option>VISIT WITH HPCL TEAM</option>
+          </select>
         </div>
 
         <!-- Submit details -->
